@@ -1,0 +1,596 @@
+{
+  "module": {
+    "WaterSpeed": {
+      "key": -1,
+      "state": false
+    },
+    "ScreenWalk": {
+      "key": -1,
+      "state": false
+    },
+    "NoSlow": {
+      "key": -1,
+      "state": false,
+      "Mode": "Grim"
+    },
+    "Sprint": {
+      "key": -1,
+      "state": true
+    },
+    "KeepSprint": {
+      "key": -1,
+      "state": false
+    },
+    "Flight": {
+      "key": 70,
+      "state": false,
+      "Режим": "Motion",
+      "Скорость": 3.0
+    },
+    "Speed": {
+      "key": -1,
+      "state": false,
+      "Режим": "FunTime"
+    },
+    "Spider": {
+      "key": -1,
+      "state": false,
+      "Режим": "Blocks",
+      "Ротация": "Client"
+    },
+    "Sneak": {
+      "key": -1,
+      "state": false,
+      "Только на шифте": true
+    },
+    "NoFall": {
+      "key": -1,
+      "state": false,
+      "Mode": "Grim"
+    },
+    "ElytraRecast": {
+      "key": -1,
+      "state": false
+    },
+    "BackTrack": {
+      "key": -1,
+      "state": true,
+      "Delay (ms)": 50.0,
+      "Range": 5.1
+    },
+    "TriggerBot": {
+      "key": -1,
+      "state": false,
+      "Только криты": true,
+      "Умные криты": false
+    },
+    "AimAssist": {
+      "key": -1,
+      "state": false,
+      "Дистанция": 4.5,
+      "Плавность H": 10.0,
+      "Плавность V": 10.0
+    },
+    "KillAura": {
+      "key": 72,
+      "state": false,
+      "Тип наводки": "Дексленд",
+      "Угол обзора": 180.0,
+      "Дистанция": 5.8,
+      "Доп дистанция": 3.0,
+      "Только криты": true,
+      "Умные криты": false,
+      "Прочее": {
+        "Таргет есп": true,
+        "Отображать FOV": false,
+        "Не бить когда ешь": false,
+        "Бить только с оружием": false,
+        "Выключить после смерти": true
+      }
+    },
+    "Aura": {
+      "key": -1,
+      "state": false,
+      "Ротации": "Полар",
+      "Дистанция": 3.1,
+      "Только криты": true,
+      "Проверка видимости": true
+    },
+    "Velocity": {
+      "key": -1,
+      "state": false,
+      "Режим": "FunTime"
+    },
+    "Criticals": {
+      "key": -1,
+      "state": false,
+      "Режим": "Grim"
+    },
+    "AutoBow": {
+      "key": -1,
+      "state": false,
+      "Дистанция": 10.0,
+      "Задержка": 6.0
+    },
+    "AutoSwap": {
+      "key": -1,
+      "state": false,
+      "Предмет": "Тотем",
+      "Свапать на": "Геплы"
+    },
+    "AutoArmor": {
+      "key": -1,
+      "state": false,
+      "Задержка": 100.0
+    },
+    "AutoTotem": {
+      "key": -1,
+      "state": true,
+      "Уровень здоровья": 4.0,
+      "Возвращать предмет": true,
+      "Не сменять шар": false,
+      "Сохранять зачарованный": true,
+      "Проверки на": {
+        "Золотые сердца": true,
+        "Кристаллы": true,
+        "Якорь возрождения": true,
+        "Падение": true
+      }
+    },
+    "AutoPotion": {
+      "key": -1,
+      "state": false,
+      "Зелья": {
+        "Исцеление": true,
+        "Сила": false,
+        "Скорость": false,
+        "Огнестойкость": false
+      },
+      "Уровень здоровья": 14.0,
+      "Только если рядом Игрок": true
+    },
+    "AutoGapple": {
+      "key": -1,
+      "state": false,
+      "Уровень здоровья": 18.0
+    },
+    "NoEntityTrace": {
+      "key": -1,
+      "state": false
+    },
+    "NoFriendDamage": {
+      "key": -1,
+      "state": false
+    },
+    "AntiBot": {
+      "key": -1,
+      "state": false
+    },
+    "HitBox": {
+      "key": -1,
+      "state": false,
+      "Сущности": {
+        "Игроки": true,
+        "Мобы": true
+      },
+      "Игроки": 0.3,
+      "Мобы": 0.3
+    },
+    "AutoHeal": {
+      "key": -1,
+      "state": false,
+      "Предметы": {
+        "Исцеление": false,
+        "Чарка": true,
+        "Гэпл": false,
+        "Еда": false
+      },
+      "ХП для Исцеления": 12.0,
+      "ХП для Чарки": 8.0,
+      "ХП для Гэпла": 16.0,
+      "Голод для Еды": 18.0
+    },
+    "AutoRespawn": {
+      "key": -1,
+      "state": false
+    },
+    "DeathCoords": {
+      "key": -1,
+      "state": false
+    },
+    "ElytraHelper": {
+      "key": -1,
+      "state": false,
+      "Быстрый взлёт": false
+    },
+    "TargetPearl": {
+      "key": -1,
+      "state": false,
+      "Режим": "Key",
+      "Только за таргетом": false,
+      "Минимальная дистанция до пёрла": 10.0
+    },
+    "ClickAction": {
+      "key": -1,
+      "state": true
+    },
+    "TapeMouse": {
+      "key": -1,
+      "state": false,
+      "Проверка на энтити": false,
+      "Режим ударов": "По кулдауну",
+      "Задержка": 1000.0
+    },
+    "FastBreak": {
+      "key": -1,
+      "state": false
+    },
+    "AutoTool": {
+      "key": -1,
+      "state": false
+    },
+    "AutoFish": {
+      "key": -1,
+      "state": false
+    },
+    "FreeCam": {
+      "key": -1,
+      "state": false,
+      "Скорость": 1.5
+    },
+    "NoDelay": {
+      "key": -1,
+      "state": true,
+      "Элементы": {
+        "No Jump Delay": true,
+        "No Place Delay": true
+      }
+    },
+    "Parkour": {
+      "key": -1,
+      "state": false
+    },
+    "NoPush": {
+      "key": -1,
+      "state": true,
+      "Не отталкиваться от": {
+        "Игроков": true,
+        "Блоков": true,
+        "Воды": true
+      }
+    },
+    "XCarry": {
+      "key": -1,
+      "state": false
+    },
+    "Nuker": {
+      "key": -1,
+      "state": false,
+      "Радиус XZ": 3.0,
+      "Радиус Y": 1.0,
+      "Приоритет на руды": true,
+      "ФастБрик": true
+    },
+    "Eagle": {
+      "key": -1,
+      "state": false,
+      "Скорость приседа": 0.1,
+      "Только на земле": false
+    },
+    "LowHPLeave": {
+      "key": 77,
+      "state": false,
+      "Здоровье": 4.0
+    },
+    "ChunkAnimator": {
+      "key": -1,
+      "state": true,
+      "Длительность анимации": 1000.0,
+      "Режим интерполяции": "Sine"
+    },
+    "CustomWorld": {
+      "key": -1,
+      "state": true,
+      "Цвет": -197895,
+      "Дистанция тумана": 1.0,
+      "Время суток": 24000.0
+    },
+    "ContainerESP": {
+      "key": -1,
+      "state": false,
+      "Элементы": {
+        "Сундук": true,
+        "Эндер-Сундук": false,
+        "Шалкер": false,
+        "Бочка": false,
+        "Воронка": false,
+        "Печка": false
+      }
+    },
+    "CustomHand": {
+      "key": -1,
+      "state": true,
+      "Позиция рук": true,
+      "X": 0.46,
+      "Y": -0.32,
+      "Z": -0.52,
+      "Только с Aura": false,
+      "Скорость удара": 1.0,
+      "Анимации": "Feast"
+    },
+    "AspectRatio": {
+      "key": -1,
+      "state": false,
+      "Режим": "16:9",
+      "Значение": 0.5
+    },
+    "JumpCircle": {
+      "key": -1,
+      "state": true,
+      "Время жизни": 1500.0,
+      "Радиус": 1.0,
+      "Отступ": 3.0,
+      "Прозрачность": 1.0
+    },
+    "Companion": {
+      "key": -1,
+      "state": false
+    },
+    "Projectiles": {
+      "key": -1,
+      "state": false,
+      "Показывать владельца": false,
+      "Снаряды": {
+        "Эндер Пёрл": true,
+        "Стрела": true,
+        "Трезубец": true
+      }
+    },
+    "ShaderEsp": {
+      "key": -1,
+      "state": false,
+      "Режим": "Внешний",
+      "Сила": 3.0,
+      "Сила размытия": 8.0,
+      "Слои": true,
+      "Чамсы": false,
+      "Обводка": true
+    },
+    "Nametags": {
+      "key": -1,
+      "state": false,
+      "Элементы": {
+        "Игроки": true,
+        "Предметы": false
+      },
+      "Размер шрифта": 8.0,
+      "Оптимизировать": true,
+      "Отображать донат": true,
+      "Отображать броню": true
+    },
+    "TNTTimer": {
+      "key": -1,
+      "state": false
+    },
+    "NoRender": {
+      "key": -1,
+      "state": false,
+      "Элементы": {
+        "Огонь": true,
+        "Тряска": true,
+        "Боссбар": false,
+        "Плохие эффекты": true,
+        "Скорборд": false,
+        "Анимация тотема": false
+      }
+    },
+    "FullBright": {
+      "key": -1,
+      "state": true,
+      "Режим": "Гамма"
+    },
+    "ChinaHat": {
+      "key": -1,
+      "state": true
+    },
+    "Particles": {
+      "key": -1,
+      "state": false,
+      "Спавнить при": {
+        "Движении": true,
+        "Атаке": true,
+        "Крите": false
+      },
+      "Кол-во при атаке": 2.0,
+      "Кол-во при движении": 2.0,
+      "Размер": 0.2,
+      "Сила движения": 1.0,
+      "Прозрачность": 1.0,
+      "Свечение": true,
+      "Физика": false,
+      "Режим цвета": "Клиентский",
+      "Цвет": -257533,
+      "Тип частиц": "Bloom"
+    },
+    "HitColor": {
+      "key": -1,
+      "state": false,
+      "Цвет": -257533
+    },
+    "Arrows": {
+      "key": -1,
+      "state": false,
+      "Цвет друзей": -16516093,
+      "Анимировать": true
+    },
+    "FireFly": {
+      "key": -1,
+      "state": false,
+      "Кол-во": 5.0,
+      "Размер": 0.5,
+      "Дистанция": 16.0,
+      "Время жизни": 3500.0,
+      "Сила движения": 1.0,
+      "Прозрачность": 1.0,
+      "Свечение": true,
+      "Только в движении": false,
+      "Спавнить на земле": false,
+      "Физика": false,
+      "Режим цвета": "Клиентский",
+      "Цвет": -257533,
+      "Тип частиц": "Bloom"
+    },
+    "Trails": {
+      "key": -1,
+      "state": false
+    },
+    "XRay": {
+      "key": -1,
+      "state": false,
+      "Режим": "Древние Обломки"
+    },
+    "Hud": {
+      "key": -1,
+      "state": true,
+      "Элементы": {
+        "Watermark": true,
+        "TargetHud": true,
+        "Keybinds": true,
+        "Potions": true,
+        "Information": true,
+        "ScoreBoard": false,
+        "ArmorHud": true
+      },
+      "Duck Mode": true,
+      "Элементы Watermark": {
+        "Time": true,
+        "Fps": true
+      }
+    },
+    "CameraClip": {
+      "key": -1,
+      "state": true
+    },
+    "SeeInvisibles": {
+      "key": -1,
+      "state": false,
+      "Прозрачность": 0.5
+    },
+    "Notifications": {
+      "key": -1,
+      "state": true
+    },
+    "BetterMinecraft": {
+      "key": -1,
+      "state": false,
+      "Простой чат": true,
+      "История чата": true,
+      "АнтиСпам в чате": true
+    },
+    "ItemScroller": {
+      "key": -1,
+      "state": false,
+      "Задержка": 100.0
+    },
+    "ContainerStealer": {
+      "key": -1,
+      "state": false,
+      "Режим": "FunTime",
+      "Задержка": 100.0,
+      "Авто-открытие": true,
+      "Закрыть если пустой": true,
+      "Предметы": {
+        "Элитры": false,
+        "Тотем": false,
+        "Отмычка": false,
+        "Сфера": false,
+        "Незер Меч": true,
+        "Незер Кирка": true,
+        "Незер Шлем": true,
+        "Незер Нагрудник": true,
+        "Незер Поножи": true,
+        "Незер Ботинки": true,
+        "Призмариновая Звезда": true,
+        "Незер Звезда": true,
+        "Чарка": true,
+        "Гэпл": true,
+        "Зелья": true,
+        "Динамит": true,
+        "Золотой Шлем": true,
+        "Золотая Кирка": true
+      }
+    },
+    "Optimizer": {
+      "key": -1,
+      "state": false,
+      "Убрать": {
+        "Растительность": false,
+        "Стойки для брони": false,
+        "Ломание блоков": false
+      }
+    },
+    "EnderChestPlus": {
+      "key": -1,
+      "state": false,
+      "Только ценные предметы": false
+    },
+    "GodModAbuse": {
+      "key": -1,
+      "state": false
+    },
+    "LeaveTracker": {
+      "key": -1,
+      "state": false
+    },
+    "NameProtect": {
+      "key": -1,
+      "state": false
+    },
+    "AutoFarm": {
+      "key": -1,
+      "state": false
+    },
+    "Globals": {
+      "key": -1,
+      "state": false
+    },
+    "ClickGui": {
+      "key": 344,
+      "state": true,
+      "Гифка в меню": true,
+      "Размер гифки": 0.8,
+      "Гифка по X": 800.0,
+      "Гифка по Y": 280.0
+    },
+    "Targets": {
+      "key": -1,
+      "state": true,
+      "Режим сортировки": "Наводка",
+      "Сквозь стены": true,
+      "Таргеты": {
+        "Игроки": true,
+        "Невидимые": true,
+        "Голые": true,
+        "Тиммейты": true,
+        "Животные": false,
+        "Мобы": false
+      }
+    },
+    "Theme": {
+      "key": -1,
+      "state": true,
+      "Клиент": -10921476,
+      "Задний фон": -15461346,
+      "Тень": -14606037,
+      "Текст": -6986756,
+      "Иконки": -8963076
+    },
+    "ArrayList": {
+      "key": -1,
+      "state": true,
+      "Font Size": 8.0,
+      "XYZ (Position X)": 99.0,
+      "Color Mode": "Rainbow"
+    }
+  }
+}
